@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 1200px;
+    display: flex;
+    background-color: aquamarine;
+}
+
+.menu {
+    width: 15%;
+    background-color: rgb(208, 206, 215);
+    padding: 100px 20px 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    width: 85%;
+    margin: 0;
+}
+
+.header {
+    background-image: url('banner\ 1.png'); /* URL da sua imagem */
+    background-size: cover;
+    background-position: center;
+    min-height: 300px;
+    color: white; /* Adiciona cor branca ao texto, se houver */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    background-color: white;
+    min-height: 300px;
+    padding: 20px;
+}
+
+.footer {
+    background-color: rgb(154, 147, 175);
+    min-height: 150px;
+}
+
+.footer-columns {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.column {
+    width: 30%;
+    background-color: ;
+    padding: 10px;
+}
+.column2 {
+    width: 50%;
+    background-color: ;
+    padding: 10px;
+}
+.column3 {
+    width: 50%;
+    background-color:rgb(216, 206, 225) ;
+    padding: 10px;
+
+}
